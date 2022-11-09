@@ -1,0 +1,116 @@
+body {
+  padding: 5;
+  margin-top: 10px;
+  background-image: url(../img/fondo3.jpg);
+  background-color: #b71414;
+  background-position: right;
+  background-repeat: repeat; }
+
+header {
+  padding-bottom: 5%; }
+  header nav.navbar {
+    background-color: #050505; }
+
+main {
+  margin: 1%; }
+
+p {
+  color: #fa992a;
+  justify-content: center; }
+
+.contenedor2 {
+  background-position: right; }
+
+.container-img {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px; }
+
+.container-img .box-img figure {
+  width: 100%;
+  height: 100%; }
+
+.container-img .box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.container-img .box-img:nth-child(1) {
+  grid-column-start: span 2; }
+
+.container-img .box-img:nth-child(4) {
+  grid-row-start: span 2; }
+
+@media screen and (max-width: 800px) {
+  .container-img {
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px; }
+  .container-img .box-img:nth-child(1) {
+    grid-column-start: span 1; } }
+
+@media screen and (max-width: 500px) {
+  .container-img {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr); }
+  .container-img .box-img img {
+    height: 200px; } }
+
+.pictures {
+  display: inline-block; }
+
+.pictures img {
+  padding: 2%;
+  margin: 5%; }
+
+iframe {
+  padding: 5%; }
+
+.principal {
+  padding: 10%;
+  width: 96%;
+  max-width: 960px;
+  margin: 0 left; }
+
+.img {
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  margin: 5%; }
+
+iframe {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 left;
+  height: 450;
+  padding: 2%;
+  margin: 5%; }
+
+.principal2 {
+  padding: 10%; }
+
+/*SASS AQUI CODIGO NESTIN*/
+.sass1 {
+  list-style-type: none;
+  text-align: center; }
+  .sass1 .sass2 {
+    background-color: #070707;
+    display: inline-block;
+    border: #000000 1px solid transparent;
+    margin: 1px; }
+    .sass1 .sass2 .sass3 {
+      color: #d55b5b;
+      padding: 4px 50px;
+      text-decoration: none;
+      text-transform: lowercase; }
+      .sass1 .sass2 .sass3.sass3:hover {
+        background-color: #c02626;
+        color: #dd8418;
+        padding: 4px; }
