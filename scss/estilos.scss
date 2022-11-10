@@ -7,6 +7,15 @@ body {
     background-repeat: repeat; 
 }
 
+@media only screen and (max-width: 767px) {
+
+  body {
+  
+  background:#000000;
+  
+  }
+  
+
 header{
     padding-bottom: 5%;
     nav.navbar {
@@ -156,3 +165,33 @@ iframe{
           }  
     }
 }
+
+.whatsapp{
+  
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 100px;
+}
+
+.instagram{
+  
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 100px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+  body {
+  
+  background-image: url(images/background-photo-mobile-devices.jpg);
+  
+  }
+  

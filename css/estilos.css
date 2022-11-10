@@ -6,14 +6,27 @@ body {
   background-position: right;
   background-repeat: repeat; }
 
+  @media only screen and (max-width: 767px) {
+
+    body {
+    
+    background:#000000;
+    
+    }
+  }
+
 header {
   padding-bottom: 5%; }
   header nav.navbar {
     background-color: #050505; }
 
 main {
-  margin: 1%; }
+  margin: 5%; }
 
+h1{
+  color: #bbaf8b;
+  font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
 p {
   color: #fa992a;
   justify-content: center; }
@@ -114,3 +127,17 @@ iframe {
         background-color: #c02626;
         color: #dd8418;
         padding: 4px; }
+
+.whatsapp {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 80px; }
+
+.instagram {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 8px; }
